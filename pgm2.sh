@@ -1,0 +1,6 @@
+echo "enter 3 number"
+read a b c
+s=`expr $a + $b + $c`
+echo "sum is $s"
+av=`expr  $s / 3`
+echo "average is $av"
